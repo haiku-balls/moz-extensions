@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Haiku's Test Extension",
+  "version": "0.1.12923",
+
+  "description": "It makes the world spin.",
+
+  "icons": {
+    "48": "icons/debug-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.roblox.com/*"],
+      "js": ["test.js"]
+    }
+  ]
+
+}
